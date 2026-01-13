@@ -9,7 +9,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Provider store={store}>
-      <Router> {/* Router stays here */}
+     <Router basename="/Withcenter/"> {/* Router stays here */}
         <App />
       </Router>
     </Provider>
